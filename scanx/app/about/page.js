@@ -143,22 +143,22 @@ function AnimatedBackground() {
 
 function CreatorsSection() {
   const creators = [
-    {
-      name: "Ayushi Thumar",
-      role: "UI/UX Designer & Developer",
-      image: "/Ayushi.png",
-      gradient: "from-pink-200 to-white",
-      linkedin: "https://www.linkedin.com/in/ayushi-thumar-b07309251",
-      instagram: "https://www.instagram.com/ayushi_thumar",
-      github: "https://github.com/AThumar",
-      gmail: "mailto:ayushideveloper7030@gmail.com",
-      skills: [
-        "Passionate about creating user-friendly and visually appealing interfaces",
-        "Proficient in wireframing, prototyping, and front-end development",
-        "Strong understanding of design principles and user psychology",
-        "Dedicated to enhancing digital experiences through innovation",
-      ],
-    },
+    // {
+    //   name: "Ayushi Thumar",
+    //   role: "UI/UX Designer & Developer",
+    //   image: "/Ayushi.png",
+    //   gradient: "from-pink-200 to-white",
+    //   linkedin: "https://www.linkedin.com/in/ayushi-thumar-b07309251",
+    //   instagram: "https://www.instagram.com/ayushi_thumar",
+    //   github: "https://github.com/AThumar",
+    //   gmail: "mailto:ayushideveloper7030@gmail.com",
+    //   skills: [
+    //     "Passionate about creating user-friendly and visually appealing interfaces",
+    //     "Proficient in wireframing, prototyping, and front-end development",
+    //     "Strong understanding of design principles and user psychology",
+    //     "Dedicated to enhancing digital experiences through innovation",
+    //   ],
+    // },
     {
       name: "Naman Gundaniya",
       role: "UI/UX Designer & Developer",
@@ -175,26 +175,26 @@ function CreatorsSection() {
         "Passionate about blending aesthetics with functionality",
       ],
     },
-    {
-      name: "Harshal Rupala",
-      role: "Marketing Executive",
-      image: "/harshal.png",
-      gradient: "from-teal-200 to-white",
-      linkedin: "https://www.linkedin.com/in/harshalrupala516",
-      instagram: "https://www.instagram.com/harshalrupala516",
-      github: "https://github.com/harshalrupala516",
-      gmail: "mailto:harshalrupala516@gmail.com",
-      skills: [
-        "Expert in brand strategy and digital marketing",
-        "Specializes in market research and customer engagement",
-        "Skilled in crafting compelling user interaction strategies",
-        "Focused on growing and promoting brands with innovative strategies",
-      ],
-    },
+    // {
+    //   name: "Harshal Rupala",
+    //   role: "Marketing Executive",
+    //   image: "/harshal.png",
+    //   gradient: "from-teal-200 to-white",
+    //   linkedin: "https://www.linkedin.com/in/harshalrupala516",
+    //   instagram: "https://www.instagram.com/harshalrupala516",
+    //   github: "https://github.com/harshalrupala516",
+    //   gmail: "mailto:harshalrupala516@gmail.com",
+    //   skills: [
+    //     "Expert in brand strategy and digital marketing",
+    //     "Specializes in market research and customer engagement",
+    //     "Skilled in crafting compelling user interaction strategies",
+    //     "Focused on growing and promoting brands with innovative strategies",
+    //   ],
+    // },
   ];
 
   return (
-    <div className="container mx-auto px-4 py-16 mt-96">
+    <div className="container px-4 py-16 mt-96">
       <h2 className="text-4xl font-normal text-center mb-12 text-start">Meet Our Creators</h2>
 
       <div className="grid md:grid-cols-3 gap-8">
